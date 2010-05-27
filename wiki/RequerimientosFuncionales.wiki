@@ -10,4 +10,8 @@ En este documento se describen los requerimientos funcionales de la aplicación,
 Agreguen aquí lo que necesita que haga el software:
   * Generación de señales:
 
-  * Otras...
+    #Cuadradas.
+    #Triangulares.
+
+  * Otra característica:
+    #
