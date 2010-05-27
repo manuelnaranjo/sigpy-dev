@@ -14,4 +14,3 @@ Agreguen aquí lo que necesita que haga el software:
     # Triangulares.
 
   * Otra característica:
-    #
