@@ -1,8 +1,8 @@
-#summary One-sentence summary of this page.
+#summary Requerimientos funcionales.
 
 = Introducción =
 
-En este documento se describen los requerimientos funcionales de la aplicación.
+En este documento se describen los requerimientos funcionales de la aplicación, necesarios para empezar el diseño del mismo.
 
 
 = Requerimientos funcionales =
