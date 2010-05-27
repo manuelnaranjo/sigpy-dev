@@ -8,6 +8,9 @@ En este documento se describen los requerimientos funcionales de la aplicación,
 = Requerimientos funcionales =
 
 Agreguen aquí lo que necesita que haga el software:
+
+El programa debe permitir la generación de señales eléctricas, con capacidad de modificacion de parámetros. Tales señales se describen a continuación:
+
   * Generación de señales:
 
     # Cuadradas.
