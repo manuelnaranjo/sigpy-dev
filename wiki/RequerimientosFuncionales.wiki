@@ -29,7 +29,7 @@ Se desarrollará una interfaz de consola y una gráfica que permita la configura
 
 Los formatos de archivos serán los más estándares posibles siendo el wav un formato optimo para el trabajo.
 
-También debe existir una familia de módulos de adquisición (como contrapunto a la generación). Esta familia debe tener un núcleo al cual se conectan todos los posibles periféricos. Se desarrollarán interfaces gráficas que permitan la visualización de las señales adquiridas.
+  * También debe existir una familia de módulos de adquisición (como contrapunto a la generación). Esta familia debe tener un núcleo al cual se conectan todos los posibles periféricos. Se desarrollarán interfaces gráficas que permitan la visualización de las señales adquiridas.
 Todos los módulos e interfaces gráficas estarán debidamente protocolizados. Esto permitirá su uso en otros desarrollos.
 
-Otra familia de módulos estará destinada al diseño de filtros analógicos y digitales de todo tipo. También se confeccionará una interfaz gráfica que ayude y asista para el diseño de estos filtros.
+  * Otra familia de módulos estará destinada al diseño de filtros analógicos y digitales de todo tipo. También se confeccionará una interfaz gráfica que ayude y asista para el diseño de estos filtros.
