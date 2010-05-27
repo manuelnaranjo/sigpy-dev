@@ -16,6 +16,9 @@ El programa debe permitir la generación de señales eléctricas, con capacidad 
     # Cuadradas.
     # Triangulares.
     # Rampa
+    # Pulso
+    # Pulso Gaussiano
+    # Escalón
     # Sinusoidales
     # Aleatorias
     # Señales cargadas por el usuario (wav)
