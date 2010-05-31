@@ -156,3 +156,42 @@ class RampSignal(Thread):
 
         def stop(self):
                 self.alive = False
+                
+                
+class GaussPulseSignal(Thread):
+
+        def __init__(self, dc, ampl, t, sigma, rate):
+                Thread.__init__(self)
+
+                self.dc = dc
+                self.ampl = ampl
+                self.t = t
+                self.sigma = sigma
+                self.t_sample = 1/float(rate)
+                self.dat = 0
+                self.alive = True
+                self.pause_flag = False
+                
+                
+                
+        def gauss(self, t, sigma, current_t):
+                return np.e**-(((current_t-t)**2)/(2*(sigma**2)))
+                
+                        
+        
+        def run(self):
+                count = 0
+                while self.alive:
+                        self.dat = (self.dc + self.gauss(self.t, self.sigma, self.t_sample * count))
+                        sleep(self.t_sample)
+                        count += 1   
+                        
+                        while self.pause_flag:
+                                pass
+                                        
+        def pause(self, flag):
+                self.pause_flag = flag
+
+
+        def stop(self):
+                self.alive = False
