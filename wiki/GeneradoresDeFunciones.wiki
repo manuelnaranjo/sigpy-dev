@@ -1,5 +1,5 @@
 #labels Phase-Implementation
-Documentación de los módulos gfp y gfnp, explicando sus clases y métodos.
+Documentación de los módulos [gfp] y gfnp, explicando sus clases y métodos.
 
 = Introducción =
 
