@@ -1,6 +1,5 @@
 #summary Documentación de los módulos [gfp] y [gfnp], explicando sus clases y métodos.
 #labels Phase-Implementation
-#sidebar [IndiceGeneradores]
 
 = Introducción =
 
