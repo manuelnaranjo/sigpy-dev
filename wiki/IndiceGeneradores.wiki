@@ -1,0 +1,2 @@
+*[gfp Clases generadores de funciones periódicas]
+*[gfnp Clases generadores de funciones no periódicas]
