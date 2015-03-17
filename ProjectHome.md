@@ -1,0 +1,1 @@
+Sigpy es un completo sistema para el análisis y procesamiento de señales, GNU, escrito en Python. Se encarga de generar adquirir procesar y analizar señales mediante módulos a bajo nivel altamente compatibles con scipy.signal y provee de algunas interfaces gráficas cómodas, fáciles de usar he integrables a otros proyectos.
